@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HealthHub | Demo Hospital Website</title>
+    
+    <!---FontAwesome Icons CDN--->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!---Google fonts--->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!---Stylesheet--->
+    <link rel="stylesheet" href="style.css" />
+
+    <!---Media queries--->
+    <link rel="stylesheet" href="m_queries.css" />
+  </head>
+
+
+  <body>
+    <!---Scroll Indicator--->
+    <div class="progress-container">
+      <div id="progress"></div>
+    </div>
+
+    <!---Navbar--->
+    <nav>
+      <a href="#home" id="logo">HealthHub Hospital</a>
+      <i class="fas fa-bars" id="ham-menu"></i>
+      <ul id="nav-bar">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#doctors">DOCTORS</a></li>
+        <li><a href="#testimonials">TESTIMONIALS</a></li>
+        <li><a href="#footer">CONTACT US</a></li>
+      </ul>
+    </nav>
+
+    <!---Header--->
+    <header id="home">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Providing Better Medical Care</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+            commodi adipisci maiores voluptate corrupti fugit aspernatur,
+            voluptatibus quod ad cupiditate nemo dolores labore ipsum, harum
+            culpa voluptatem fugiat placeat nam.
+          </p>
+        </div>
+        <div class="hero-btns">
+          <button class="primary-btn"
+          onclick="window.location.href ='https://forms.gle/vXFdRz35sp21mxuEA';">BOOK APPOINTMENT</button>
+          <a href="#about"><button class="secondary-btn">KNOW MORE</button></a>
+        </div>
+      </div>
+      <img src="images/hero-img.jpg" alt="hero-img" />
+    </header>
+
+    <!---About--->
+    <section class="about" id="about">
+      <div class="row">
+        <div class="column">
+          <img src="images/about-img.jpg" alt="about-img" />
+        </div>
+        <div class="column">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex error
+            ipsam, animi voluptates temporibus, adipisci beatae sed omnis illum
+            repudiandae commodi praesentium placeat! Fuga sed, a laudantium
+            laboriosam nulla assumenda.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            minus nihil ea quia quas nesciunt blanditiis sunt molestias facilis,
+            sequi debitis illum? Natus non expedita cum, quis vel, eveniet eaque
+            quod, saepe explicabo voluptates numquam temporibus! Blanditiis ex
+            explicabo non sed aspernatur eius minima! Rerum quisquam est
+            temporibus quos iste.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!---Doctors--->
+    <section class="doctors" id="doctors">
+      <div class="row">
+        <div class="column">
+          <h2>Our Doctor</h2>
+          <p><b>
+            Speciality: Cardiology
+            Degrees: M.D. of Medicine
+            Areas Of Expertise: *Cardiac Imaging – Non-invasive
+            *Cardiac Rehabilitation and Exercise
+            *Hypertrophic Cardiomyopathy
+            *Inherited Heart Diseases
+          </b></p>
+          <br>
+          <p>He received extensive training in coronary as well as peripheral interventions and limb salvage procedures. He actively participates in clinical research trials and has been published in peer reviewed journals such as the Journal of the State Medical Society and Baylor University Medical Center's Proceedings.
+          </p>
+        </div>
+        <div class="column">
+          <img src="images/doctor-img.png" alt="doctor-img" />
+        </div>
+      </div>
+    </section>
+
+    <!---Testimonials--->
+    <section class="testimonials" id="testimonials">
+      <h2>Testimonials</h2>
+      <div class="wrapper">
+        <div class="box">
+          <i class="fas fa-quote-left"></i>
+          <p>
+            Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing
+            elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos
+            repellendus repudiandae deleniti ideas fuga molestiae, alias.
+          </p>
+          <div class="content">
+            <div class="info">
+              <div class="name">Pranjal Raj</div>
+              <div class="job">Student</div>
+            </div>
+            <div class="image">
+              <img src="images/profile-1.jpg" alt="profile-1_img" />
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-quote-left"></i>
+          <p>
+            Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing
+            elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos
+            repellendus repudiandae deleniti ideas fuga molestiae, alias.
+          </p>
+          <div class="content">
+            <div class="info">
+              <div class="name">Mukesh Goenka</div>
+              <div class="job">Businessman</div>
+            </div>
+            <div class="image">
+              <img src="images/profile-2.jpg" alt="profile-2_img" />
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-quote-left"></i>
+          <p>
+            Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing
+            elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos
+            repellendus repudiandae deleniti ideas fuga molestiae, alias.
+          </p>
+          <div class="content">
+            <div class="info">
+              <div class="name">Vaibhav Singh</div>
+              <div class="job">Government Employee</div>
+            </div>
+            <div class="image">
+              <img src="images/profile-3.jpg" alt="profile-3_img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---Footer--->
+    <footer>
+    <div class="footer-wrapper">
+      <div class="row">
+        <div class="column">
+          <h3>Phone</h3>
+          <p>(+91)-90051-75380</p>
+        </div>
+        <div class="column">
+          <h3>Email</h3>
+          <p>connect@HealthHubHospital.com</p>
+        </div>
+        <div class="column">
+          <h3>Address</h3>
+          <p>Jankipuram, Lucknow</p>
+        </div>
+      </div>
+      <div class="row">
+        <span>
+          <i class="fab fa facebook-f"></i>
+        </span>
+        <span>
+          <i class="fab fa twitter"></i>
+        </span>
+        <span>
+          <i class="fab fa instagram"></i>
+        </span>
+      </div>
+    </div>
+    <footer>
+
+    <!---Copyright--->
+    <div class="credits" id="footer">
+    <p>Made with &#10084 by <a href="https://DiGiLABSltd.com" alt="DiGiLABS"><b>DiGiLABS</b></a></p>
+    </div>
+
+    <!---Scroll to Top Button--->
+    <button id="scroll-top-btn">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!---Script--->
+    <script src="script.js"></script>
+
+    <!---GetButton.io widget--->
+    <script type="text/javascript">
+     (function () {
+      var options = {
+          whatsapp: "+917460988541", // WhatsApp number
+          call_to_action: "Message us", // Call to action
+          position: "left", // Position may be 'right' or 'left'
+      };
+      var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+      })();
+    </script>
+
+  </body>
+</html>
